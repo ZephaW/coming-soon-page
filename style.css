@@ -5,6 +5,46 @@
     padding: 0;
 }
 
+body {
+font-size: 20px
+}
+
+p span{
+    color: hsl(0, 0%, 59%);
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+
+#email {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 20px;
+    border: 1px solid hsl(223, 100%, 88%);
+}
+
+#email::placeholder {
+    color: hsl(223, 100%, 88%);
+}
+
+input.submit {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    margin: 1rem 0;
+    border-radius: 20px;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
