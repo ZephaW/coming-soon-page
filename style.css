@@ -12,7 +12,7 @@ body {
 }
 
 
-.main-content {
+.main-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -102,4 +102,34 @@ input.submit {
 .image-container img {
     width: 100%;
     height: auto;
+}
+
+@media (min-width: 768px) {
+
+    body {
+        font-size: 24px;
+        min-height: 100vh;
+    }
+
+
+    .main-container {
+        width: 60%;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5em;
+    }
+
+    #email {
+        width: 75%;
+    }
+
+    input.submit {
+        width: 25%;
+    }
+    
+   
 }
