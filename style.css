@@ -91,7 +91,7 @@ input.submit {
     margin: 2em 0;
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 5px; margin:3em 0; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 .image-container {
