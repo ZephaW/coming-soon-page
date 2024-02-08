@@ -77,13 +77,17 @@ input.submit {
     
 }
 
+ input.submit:hover{
+    background-color:  hsl(223, 71%, 75%); 
+} 
+
 .socials {
     display: flex;
     justify-content: center;
-    /* justify-content: space-between; */
+   
     gap: 1.3em;
     width: 30vh;
-   
+   cursor: pointer;
     margin: 1rem 0;
     color: hsl(223, 87%, 63%);
 }
@@ -112,16 +116,44 @@ input.submit {
     height: auto;
 }
 
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid hsl(223, 100%, 88%); 
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+.social-icon i {
+    font-size: 0.8em;
+    
+}
+.social-icon:hover {
+    background-color:  hsl(223, 87%, 63%); 
+    color: white;
+
+} 
+
+
+
+ /* Media Queries */
+
+
 @media (min-width: 768px) {
 
     body {
-        font-size: 24px;
+        font-size: 22px;
         min-height: 100vh;
     }
 
 
     .main-container {
-        width: 60%;
+        max-width: 40%;
     }
 
     .form {
@@ -129,14 +161,15 @@ input.submit {
         flex-direction: row;
         align-items: center;
         gap: 0.5em;
+        width: 100%;
     }
 
     #email {
-        width: 75%;
+        width: 70%;
     }
 
     input.submit {
-        width: 25%;
+        width: 30%;
     }
     
    
