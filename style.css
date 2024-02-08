@@ -164,12 +164,16 @@ input.submit {
         width: 100%;
     }
 
+   
+
     #email {
         width: 70%;
+        height: 3em;
     }
 
     input.submit {
         width: 30%;
+        height: 3em; ;
     }
     
    
