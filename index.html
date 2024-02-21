@@ -5,54 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Ping coming soon page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <script src="https://kit.fontawesome.com/6a809987b6.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <main class="main-container">
 
-  <div class="logo">
-    <img src="./images/logo.svg" alt="Ping logo">
-  </div>
-
-  <p> <span>We are launching</span> <strong>soon!</strong></p>
-
-  <p class="subscribe">Subscribe and get notified</p>
+  <header>
+    <div class="logo">
+      <img src="./images/logo.svg" alt="Ping logo">
+    </div>
+  
+    <p> <span>We are launching</span> <strong>soon!</strong></p>
+  
+    <p class="subscribe">Subscribe and get notified</p>
+  </header>
+  
 
   <form action="submit.php" method="post" class="form">
-  <input type="email" name="email" id="email" placeholder="Your email address...">
-  <input type="submit" value="Notify" class="submit">
+    <input type="email" name="email" id="email" placeholder="Your email address...">
+    <input type="submit" value="Notify" class="submit">
   </form>
 
 
-<div class="image-container">
-  <img src="./images/illustration-dashboard.png" alt="Dashboard illustration">
+  <figure class="image-container">
+    <img src="./images/illustration-dashboard.png" alt="Dashboard illustration">
 
-</div>
+  </figure>
 
-<div class="socials">
-  <!-- <style>
-    .social-icon {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      background-color: #000;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 10px;
-    }
-
-    .social-icon i {
-      color: #fff;
-      font-size: 20px;
-    }
-  </style> -->
-
-  <!-- Your HTML code with circular divs -->
+<section class="socials">
+  
   <div class="social-icon">
     <i class="fa-brands fa-twitter"></i>
   </div>
@@ -66,10 +48,10 @@
   </div>
 
     
-</div>
+</section>
 
 
-<div class="copyright">&copy; Copyright Ping. All rights reserved. </copyright>
+<div class="copyright">&copy; Copyright Ping. All rights reserved. </div>
 
   <footer>
     <p class="attribution">
