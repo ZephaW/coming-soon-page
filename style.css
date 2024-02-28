@@ -141,8 +141,18 @@ input.submit {
     background-color:  hsl(223, 87%, 63%); 
     color: white;
 
+
+
 } 
 
+
+.error-message {
+   
+    color: red;
+    font-size: 0.6em;
+    
+    
+}
 
 
  /* Media Queries */
