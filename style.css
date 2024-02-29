@@ -67,6 +67,11 @@ p span{
     color: hsl(223, 100%, 88%);
 }
 
+.form input[type="email"]:invalid {
+    border-color: red; 
+}
+
+
 input.submit {
     width: 100%;
     padding: 1rem;

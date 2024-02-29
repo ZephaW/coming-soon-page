@@ -22,12 +22,14 @@
   </header>
   
 
-  <form action="submit.php" method="post" class="form">
-    <input type="email" name="email" id="email" placeholder="Your email address...">
-    <input type="submit" value="Notify" class="submit">
+  <form action="/" method="post" id="form">
+    <input type="email" name="email" id="email" placeholder="Your email address..." required>
+    <button type="submit">notify</button>
 
   </form>
-<div id="email-error" class="error-message"></div> 
+
+<div id="error"></div>
+
 
   <figure class="image-container">
     <img src="./images/illustration-dashboard.png" alt="Dashboard illustration">
@@ -52,7 +54,9 @@
 </section>
 
 
-<div class="copyright">&copy; Copyright Ping. All rights reserved. </div>
+<div class="copyright">
+  &copy; Copyright Ping. All rights reserved. 
+</div>
 
   <footer>
     <p class="attribution">
